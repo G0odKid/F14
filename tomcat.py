@@ -252,7 +252,7 @@ def main():
     Logger.info(f"Method: {target_method}")
 
     # --- Initialize Reporter ---
-    reporter = Reporter(target_url, target_method, target_json)
+    # reporter = Reporter(target_url, target_method, target_json)
 
     if proxy_setting or tor_setting:
         Logger.info(f"Proxy Active: {proxy_setting or 'Tor'}")
